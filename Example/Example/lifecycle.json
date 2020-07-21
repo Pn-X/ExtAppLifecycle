@@ -1,0 +1,45 @@
+{
+    "core":{
+        "name":"CoreLifecycle",
+        "params": {
+            "appId":"123123",
+            "tabBarVCs":[
+                {
+                    "class":"HomeViewController",
+                    "embed":true
+                },
+                {
+                    "class":"OrderViewController",
+                    "embed":true
+                },
+                {
+                    "class":"SettingsViewController",
+                }
+            ]
+        }
+    },
+    "slaves":[
+        {
+            "name":"HomeLifecycle",
+            "params": {
+
+            }
+        },
+        {
+            "name":"OrderLifecycle",
+            "params": {
+            }
+        },
+        {
+            "name":"SettingsLifecycle",
+            "params": {
+            }
+        },
+    ],
+    "reducer": {
+        "name":"ExtReducerLifecycle",
+        "params": {
+            
+        }
+    }
+}

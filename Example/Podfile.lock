@@ -1,0 +1,16 @@
+PODS:
+  - ExtAppLifecycle (0.0.1)
+
+DEPENDENCIES:
+  - ExtAppLifecycle (from `../`)
+
+EXTERNAL SOURCES:
+  ExtAppLifecycle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ExtAppLifecycle: 2ab1014d7b0384eb53762b955cae6d0c81d73d37
+
+PODFILE CHECKSUM: 4544062eb7ef35d02ee3077f397d911efab6d9dc
+
+COCOAPODS: 1.9.3
